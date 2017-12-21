@@ -148,6 +148,7 @@ var Main = (function (_super) {
      * Create scene interface
      */
     Main.prototype.startCreateScene = function () {
+        App.setStage(this.stage);
         var sky = this.createBitmapByName("bg_jpg");
         this.addChild(sky);
         var stageW = this.stage.stageWidth;

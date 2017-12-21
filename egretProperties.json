@@ -26,6 +26,10 @@
       "name": "res"
     },
     {
+      "name": "is",
+      "path": "../MyGameTools/thirds/is"
+    },
+    {
       "name": "eui"
     },
     {

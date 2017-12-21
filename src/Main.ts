@@ -142,6 +142,8 @@ class Main extends eui.UILayer {
      * Create scene interface
      */
     protected startCreateScene(): void {
+        App.setStage(this.stage);
+
         let sky = this.createBitmapByName("bg_jpg");
         this.addChild(sky);
         let stageW = this.stage.stageWidth;
